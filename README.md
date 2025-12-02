@@ -19,9 +19,9 @@ graph TD
         App -->|Req: Gen Z Persona| Flash3[Gemini 2.5 Flash]
     end
     
-    Flash1 -->|Resp: "Back in my day..."| App
-    Flash2 -->|Resp: "I'm so tired..."| App
-    Flash3 -->|Resp: "fr no cap..."| App
+    Flash1 -->|Resp: Back in my day...| App
+    Flash2 -->|Resp: I'm so tired...| App
+    Flash3 -->|Resp: fr no cap...| App
     
     subgraph "Judgement Phase"
         App -->|Send: All 3 Responses| Pro[Gemini 3.0 Pro]
