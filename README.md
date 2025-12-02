@@ -8,7 +8,6 @@ GenWar Council is a witty, sarcastic, and intelligent debate application where A
 
 The application follows a client-side architecture using React and the Google Gemini API.
 
-```mermaid
 graph TD
     User[User Input] -->|Submit Topic| App[React App]
     
@@ -28,7 +27,6 @@ graph TD
     end
     
     App -->|Render| UI[User Interface]
-```
 
 ## 🛠 Tech Stack
 
